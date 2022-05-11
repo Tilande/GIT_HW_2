@@ -1,0 +1,36 @@
+ 496  git clone https://github.com/Tilande/GIT_HW_2.git
+  497  cd GIT_HW_2
+  498  git branch Postman
+  499  git branch Jmeter
+  500  git branch CheckLists
+  501  git branch Bug Reports
+  502  git branch BugReports
+  503  git branch SQL
+  504  git branch Charles
+  505  git branch MobileTesting
+  506  git push -u origin Postman
+  507  git push -u origin Jmeter
+  508  git push -u origin CheckLists
+  509  git push -u origin BugReports
+  510  git push -u origin SQL
+  511  git push -u origin Charles
+  512  git push -u origin MobileTesting
+  513  git checkout BugReports
+  514  vim bug_structure.txt
+  515  git commit -am "add bug_structure"
+  516  git add bug_structure.txt
+  517  git commit -am "add bug_structure"
+  518  git push
+  519  git checkout main
+  520  git merge BugReports
+  521  git push
+  522  git checkout CheckLists
+  523  vim check_list_structure.txt
+  524  git add .
+  525  git commit -am "add check_list_structure"
+  526  git push
+  527  git checkout main
+  528  git fetch
+  529  git pull
+  530  history
+
